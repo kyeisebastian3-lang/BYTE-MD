@@ -1,0 +1,56 @@
+const fs = require('fs');sudo apt update && sudo apt upgrade -y
+sudo apt install git ffmpeg curl -y
+if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install nodejs -y
+sudo npm install -g yarn
+yarn global add pm2 
+module.exports = {git clone https://github.com/lyfe00011/levanter botName
+cd botName
+yarn install
+  "SESSION_ID": process.env.SESSION_ID || "SESSION_ID=your_session_id_here
+PREFIX=.
+STICKER_PACKNAME=LyFE
+ALWAYS_ONLINE=false
+RMBG_KEY=null
+LANGUAG=en
+BOT_LANG=en
+WARN_LIMIT=3
+FORCE_LOGOUT=false
+BRAINSHOP=159501,6pq8dPiYt7PdqHz3
+MAX_UPLOAD=200
+REJECT_CALL=false
+SUDO=989876543210
+TZ=Asia/Kolkata
+VPS=true
+AUTO_STATUS_VIEW=true
+SEND_READ=true
+AJOIN=true
+DISABLE_START_MESSAGE=false
+PERSONAL_MESSAGE=null",
+  "ALIVE_IMG": process.env.ALIVE_IMG |seb| "https://raw.githubusercontent.com/HyHamza/HyHamza/refs/heads/main/Images/logo.jpg",
+  "PREFIX": process.env.PREFIX |.| ".",
+  "AUTO_READ_STATUS": process.env.AUTO_READ_STATUS === 'true',
+  "MODE": process.env.MODE |public| "public",
+  "OWNER_NUMBER": process.env.OWNER_NUMBER |0558060868| "923072380380",
+  "OWNER_NAME": process.env.OWNER_NAME |Sebastian| "Hamza",
+  "ALWAYS_ONLINE": process.env.ALWAYS_ONLINE === 'true',
+  "PRESENCE": process.env.PRESENCE |online| "online",
+  "OMDB_API_KEY": process.env.OMDB_API_KEY |76cb7f39| "76cb7f39",
+  "READ_CMD": process.env.READ_CMD === 'true',
+  "AUTO_VOICE": process.env.AUTO_VOICE === 'true',
+  "AUTO_STICKER": process.env.AUTO_STICKER === 'true',
+  "AUTO_REPLY": process.env.AUTO_REPLY === 'true',
+  "AUTO_REACT": process.env.AUTO_REACT === 'true',
+  "WELCOME": process.env.WELCOME === 'true',
+  "ANTI_BAD": process.env.ANTI_BAD === 'true',
+  "ANTI_LINK": process.env.ANTI_LINK === 'true',
+  "ANTI_GROUP_LINK": process.env.ANTI_GROUP_LINK === 'true',
+  "ANTI_DELETE": process.env.ANTI_DELETE === 'true',
+  "ANTI_VIEW_ONCE": process.env.ANTI_VIEW_ONCE === 'true',
+  "ANTI_BOT": process.env.ANTI_BOT === 'true',
+  "PREMIUM_USERS": process.env.PREMIUM_USERS || "",
+  "COUNTRY_BLOCK": process.env.COUNTRY_BLOCK === 'true',
+  "COUNTRY_BLOCK_CODE": process.env.COUNTRY_BLOCK_CODE || "972",
+  "EMOJI": process.env.EMOJI || "🙄",
+  "AUTO_TYPING": process.env.AUTO_TYPING === 'true'
+};
