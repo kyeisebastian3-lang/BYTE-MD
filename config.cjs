@@ -1,4 +1,5 @@
-const fs = require('fs');
+ fs = require('fssudo apt update && sudo apt upgrade -y
+sudo apt install git ffmpeg curl -y');
 if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
 
 module.exports = {
