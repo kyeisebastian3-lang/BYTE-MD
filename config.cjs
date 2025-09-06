@@ -1,8 +1,32 @@
-const fs = require('fs');
-if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
-
-module.exports = {
-  "SESSION_ID": process.env.SESSION_ID || "",
+const fs = require('fs');sudo apt update && sudo apt upgrade -y
+sudo apt install git ffmpeg curl -y
+if (fs.existsSync('config.env')) require('dotenv').config({ path:curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+sudo apt install nodejs -y './config.env' });
+sudo npm install -g yarn
+yarn global add pm2
+module.exports = {git clone https://github.com/lyfe00011/levanter botName
+cd botName
+yarn install
+  "SESSION_ID": process.env.SESSION_ID || "SESSION_ID=your_session_id_here
+PREFIX=.
+STICKER_PACKNAME=LyFE
+ALWAYS_ONLINE=false
+RMBG_KEY=null
+LANGUAG=en
+BOT_LANG=en
+WARN_LIMIT=3
+FORCE_LOGOUT=false
+BRAINSHOP=159501,6pq8dPiYt7PdqHz3
+MAX_UPLOAD=200
+REJECT_CALL=false
+SUDO=989876543210
+TZ=Asia/Kolkata
+VPS=true
+AUTO_STATUS_VIEW=true
+SEND_READ=true
+AJOIN=true
+DISABLE_START_MESSAGE=false
+PERSONAL_MESSAGE=null",
   "ALIVE_IMG": process.env.ALIVE_IMG || "https://raw.githubusercontent.com/HyHamza/HyHamza/refs/heads/main/Images/logo.jpg",
   "PREFIX": process.env.PREFIX || ".",
   "AUTO_READ_STATUS": process.env.AUTO_READ_STATUS === 'true',
